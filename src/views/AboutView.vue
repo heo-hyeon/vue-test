@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <Hyeon/>
+    <Hyeon title="about title"/>
   </div>
 </template>
 
