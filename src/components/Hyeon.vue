@@ -1,8 +1,14 @@
 <template>
     <div>
-        <h1> {{ title }}</h1>
-        <p> {{ name }}</p>
-        <button @click="updateName"> change name</button>
+       <p>Header</p>
+        <slot name="header" :kossie="kossie"></slot>
+        <!--slot 선언해주고 
+            views 파일에서 <Hyeon>사이에 아무말이나 써준다</Hyeon> 
+        -->
+        <p>Body</p>
+        <slot></slot>
+        <p>footer</p>
+        <!-- <button @click="updateName"> change name</button> -->
     </div>
 </template>
 
@@ -22,7 +28,8 @@
 
         data () {
             return {
-        name : "HYEON's PAGE",
+                kossie: "coder"
+            // name : "HYEON's PAGE",
             }
         },
 
