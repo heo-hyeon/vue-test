@@ -43,3 +43,12 @@
 
 <style>
 </style>
+
+<!-- components 파일
+필요한 태그 : <template>, <script>, <style> -->
+
+<!-- div 아이디에 app으로 선언했으면 위치를 나타내는 el에서 "#app"으로 연결시켜준다. -->
+
+<!-- v-for : 반복문 (data에 들어간 items가 있으면 item in items)
+     v-on : 이벤트핸들링 (methods) @로만 쓰일수도 있다. 
+     v-model : 데이터바인딩 (data)  -->
