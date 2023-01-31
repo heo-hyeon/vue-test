@@ -15,11 +15,6 @@
   </div>
 </template>
 
-<!-- componets 파일 추가 후  
-  scripot에 import 
-  components :{}에 추가
-  template막기전에 </>와 같이 막아주기
--->
 <script>
 import Hyeon from '@/components/Hyeon.vue';
 
