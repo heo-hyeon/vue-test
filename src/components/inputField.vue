@@ -5,7 +5,7 @@
         type="text" 
         :value="name"
         style="padding:30px; border:2px solid green"
-        @input="updateName"
+        @input="updateName"    
         >
     </div>  
 </template>
